@@ -157,6 +157,49 @@ Circumference=31.400000</div>
 </div>
 </div>
 </div></div>
+TO PRINT THE POWER OF NUMBER USING RECURSION
+<pre><code>
+    #include &lt;stdio.h&gt;
+    #include &lt;stdlib.h&gt;
+        
+        float power(float n, float m)
+        {
+            if( m > 0)
+            {
+                if(m == 1)
+                {
+                   return n;
+                }
+                else return n*power(n,m-1);
+            }
+            if ( m < 0)
+            {
+                if(abs(m) == 1)
+                {
+                    return 1/n;
+                }
+                else return (1/n)*power(n,m+1);
+            }
+            if ( m == 0 )
+            {
+                return 1;
+            }
+        }
+        
+        int main()
+        {
+            float n;
+            printf("Enter the number: ");
+            scanf("%f",&n);
+            float m;
+            printf("Enter the power: ");
+            scanf("%f",&m);
+            float ans = power(n,m);
+            printf("%f\n",ans);
+            return 0;
+        }
+    </code>
+</pre>
 <div class="content"><div dir="ltr" style="text-align: left;" trbidi="on">
 <br />
 <div class="MsoNormal">
