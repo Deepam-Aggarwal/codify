@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel = "stylesheet" href = "C:\Users\Kanishka\Desktop\Web Development\Codify\codes.html\codes.css">
+        <title>Fibbonaci Series</title>
+    </head>
+    <body>
+        <div class = "Aim">
+            <pre><h2>AIM: Write a program to Print Fibonacci Series.</h2></pre>
+        </div>
+        <div class = "Algorithm">
+            <pre><h2>ALGORITHM:
+    Step 1: Start
+    Step 2: Declare variables n1, n2, n3, n, i of integer type.
+    Step 3: Read the value of limit from the user.
+    Step 4: Assign n1=0 and n2=1.
+    Step 5: Print the value of n1 and n2 in output.
+    Step 6: Initialize i to 2.
+    Step 7: Assign sum=n1+n2.
+    Step 8: Display the value of sum as output.
+    Step 9: Assign n1=n2 and n2=n3.
+    Step 10: Increment i.
+    Step 11: Repeat steps 7 to 10 till i&lt;n.
+    Step 12: Stop
+            </h2></pre>
+        </div>
+        <div class = "Code">
+            <pre><h2>CODE:
+    #include &lt;stdio.h&gt;
+    void main()
+    { 
+        int n1=0,n2=1,n3,i,n;
+        clrscr();
+        printf("Enter the number of terms: ");
+        scanf("%d",&n);
+        printf("%d %d ",n1,n2);
+        for(i=2;i&lt;n;i++)
+        {
+            n3=n1+n2;
+            printf("%d ",n3);
+            n1=n2;
+            n2=n3;
+        }
+        getch();
+    }   
+            </h2></pre>
+        </div>
+        <div class = "Output">
+            <pre><h2>
+SAMPLE INPUT:
+    Enter the number of terms: 5 
+SAMPLE OUTPUT: 
+    0 1 1 2 3
+            </h2></pre>
+        </div>
+    </body>
+</html>
