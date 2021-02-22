@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel = "stylesheet" href = "">
+        <title>Leap Year or Not</title>
+    </head>
+    <body>
+        <div class = "Aim">
+            <pre><h2>AIM: Write a program to check whether a year is leap or not.</h2></pre>
+        </div>
+        <div class = "Algorithm">
+            <pre><h2>ALGORITHM:
+        Step 1: Start.
+        Step 2: Declare & Read variable year.
+        Step 3: Check if year%4==0 || year%400==0&&year%100==0 then: Display leap year.
+        Step 4: Else: Display Not a lear year.
+        Step 5: Stop</h2></pre>
+        </div>
+        <div class = "Code">
+            <pre><h2>CODE:
+    #include &lt;stdio.h&gt;
+    #include &lt;iostream.h&gt;
+    #include &lt;conio.h&gt;
+    void main()
+    {
+        int n;
+        cout&lt;&lt;"Enter Year =>\n";
+        cin&gt;&gt;n;
+        if(n%4==0 || n%400==0&&n%100==0)
+        {
+            cout&gt;&gt;"Leap Year";	
+        }
+        else
+        cout&lt;&lt;"Not a Leap Year";
+        getch();
+    }   </h2></pre>
+        </div>
+        <div class = "Output">
+            <pre><h2>
+SAMPLE INPUT:
+    Enter the number:256
+SAMPLE OUTPUT: 
+    The reverse is:652
+            </h2></pre>
+        </div>
+    </body>
+</html>

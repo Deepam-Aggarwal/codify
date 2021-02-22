@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel = "stylesheet" href = "">
+        <title>Multiplication of a Number</title>
+    </head>
+    <body>
+        <div class = "Aim">
+            <pre><h2>AIM: Write a program to print multiplication table of any number.</h2></pre>
+        </div>
+        <div class = "Algorithm">
+            <pre><h2>ALGORITHM:
+        Step 1: Start
+        Step 2: Declare the variable num and i of integer type.
+        Step 3: Read the value of num.
+        Step 4: Initialize i to 1.
+        Step 5: Display n*i in output.
+        Step 6: Increment the value of i.
+        Step 7: Repeat the step 5 and 6 till i becomes 10
+        Step 8: Stop.
+                
+            </h2></pre>
+        </div>
+        <div class = "Code">
+            <pre><h2>CODE:
+    #include &lt;stdio.h&gt;
+    #include &lt;iostream.h&gt;
+    #include &lt;conio.h&gt;
+    void main()
+    {
+        int i=1,n=0,mult;
+        clrscr();
+        cout&lt;&lt;"Enter the number:";
+        cin&gt;&gt;n;
+        for(i;i<=10;i++)
+        {
+            mult=i*n;
+            cout&lt;&lt;n&lt;&lt;”*”&lt;&lt;i&lt;&lt;”=”&lt;&lt;mult&lt;&lt;”\n";
+        }
+        getch();
+    }   </h2></pre>
+        </div>
+        <div class = "Output">
+            <pre><h2>
+SAMPLE INPUT:
+    Enter the number: 2 
+SAMPLE OUTPUT: 
+    2*1=2
+    2*2=4
+    2*3=6
+    2*4=8
+    2*5=10
+    2*6=12
+    2*7=14
+    2*8=16
+    2*9=18
+    2*10=20
+            </h2></pre>
+        </div>
+    </body>
+</html>
