@@ -1,0 +1,114 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+   a{
+     font-size:20px;
+	 padding:20px;
+    }
+   a:hover{
+            border: 1px solid black;
+            box-shadow:2px 2px 5px 1px;
+            color:brown;
+          }
+   body{
+        background-image: url("bg.jpg");
+        background-size: cover;
+       }
+   h1{
+       font-size:30px;
+       margin-top:30px;
+       margin-right:3px;
+       color: #9F496E;
+     }
+   nav{
+        float: right;
+	  }
+	  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;2
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.panel
+{background-color: #cec6e3;
+ text-align:center;
+}
+.editor {
+    color:#ffcc00;
+    background: transparent;
+    border-radius: 6px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: 400;
+    min-height: 240px;
+    letter-spacing: normal;
+    line-height: 20px;
+    padding: 10px;
+    tab-size: 4;
+}
+</style>
+<title>CODIFY</title>
+<link rel="icon" href="C.png" type="image/icon type">
+</head>
+<body> 
+<div class="panel panel-primary" style="border: 2px solid black ">
+<div class="panel-header">
+<h1><font face="Arial",font size="100px">CODIFY</font><br><i><font face="Courier", font color="#DD8EA4">Learn concepts<br>Code efficiently</font></i></h1>
+</div>
+</div>
+<ul>
+  <li><a class="active" href="#home">HOME</a></li>
+  <li><a href="#news">UPDATES</a></li>
+  <li><a href="file:///C:/Users/hp/OneDrive/Desktop/CODIFY/code.html">CODES</a></li>
+  <li><a href="file:///C:/Users/hp/OneDrive/Desktop/CODIFY/socialcard.html">ABOUT US</a></li>
+</ul>
+<br><br>
+<IMG SRC="Codify.gif" alt="promotional" size="auto" title="Promotion">
+<p></p>
+<IMG SRC="poster.gif" alt="Learn Concepts" size="auto" title="Learn Concepts" align="right">
+<IMG SRC="program.jpg" height="500" width="500" alt="View Codes" size="auto" title="Codes" >
+<div class="editor language-c++">
+    include &alt stdio.h
+    function fibonacci(n)
+	let num;
+
+	if (n >= 2) {
+		num = fibonacci(n - 1) + fibonacci(n - 2);
+	} else {
+		num = n
+	}
+
+	return num;
+}
+</div>
+<script type="module" id="code">
+  import {CodeJar} from "https://medv.io/codejar/codejar.js?"
+
+  const jar = new CodeJar(
+    document.querySelector(".editor"), 
+    Prism.highlightElement
+  )
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/components/prism-core.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/plugins/autoloader/prism-autoloader.min.js"></script>
+</body>
+</html>
