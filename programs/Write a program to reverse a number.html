@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel = "stylesheet" href = "">
+        <title>Reverse a Number</title>
+    </head>
+    <body>
+        <div class = "Aim">
+            <pre><h2>AIM: Write a program to reverse a number.</h2></pre>
+        </div>
+        <div class = "Algorithm">
+            <pre><h2>ALGORITHM:
+        Step 1: Start
+        Step 2: Declare num and rev of integer type.
+        Step 3: Initialize rev to 0.
+        Step 4: Read the value of num from user.
+        Step 5: Assign rev=rev*10.
+        Step 6: Then assign rev=rev+(num%10)
+        Step 7: Assign num=num/10.
+        Step 8: Repeat the step 5 to 7 till num>0.
+        Step 9: Display the value of rev as output.
+        Step 10: Stop.                
+            </h2></pre>
+        </div>
+        <div class = "Code">
+            <pre><h2>CODE:
+    #include &lt;stdio.h&gt;
+    #include &lt;iostream.h&gt;
+    #include &lt;conio.h&gt;
+    void main()
+    {
+        int n,reverse=0;
+        clrscr();
+        cout&lt;&lt;"Enter the number:";
+        cin&gt;&gt;n;
+        cout&lt;&lt;"The reverse is:";
+        while(n!=0)
+        {
+            reverse=n%10;
+            cout&lt;&lt;reverse;
+            n=n/10;
+        }          
+        getch();
+    }   </h2></pre>
+        </div>
+        <div class = "Output">
+            <pre><h2>
+SAMPLE INPUT:
+    Enter the number:256
+SAMPLE OUTPUT: 
+    The reverse is:652
+            </h2></pre>
+        </div>
+    </body>
+</html>
