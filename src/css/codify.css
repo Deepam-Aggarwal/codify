@@ -9,7 +9,7 @@ a{
                color:brown;
              }
       body{
-           background-image: url("..\assets/bg.jpg");
+           background-image: url("https://github.com/Deepam-Aggarwal/codify/blob/58f04fe86a564cb28fbe99995668b409be07145e/assets/bg.jpg);
            background-size: cover;
           }
       h1{
