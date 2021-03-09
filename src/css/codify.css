@@ -1,5 +1,6 @@
 body {
       background-size: cover;
+      background-image : no-repeat;
      }
 p {
    font-family:"Poppins";
