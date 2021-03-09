@@ -1,7 +1,7 @@
-body {
-      background-image: cover;
-      background-image: no-repeat;
-     }
+body{
+        background-image: url("assets\bg.jpg");
+        background-size: cover;
+       }
 p {
    font-family:"Poppins";
   }
