@@ -1,7 +1,7 @@
 body{
     font-family: 'Courier New', Courier, monospace;
     font-weight: lighter;
-    background-color: blueviolet;
+    background-color:blueviolet;
 }
 .code{
     border-radius: 50px;
@@ -10,10 +10,40 @@ body{
     max-width: fit-content;
     margin: auto;
     margin-bottom: 20px;
-    margin-top:20px;
 }
 h2{
     font-weight: 500;
     margin: 0%;
+}
+button{
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: #ff6c9d;
+    margin: 20px 20px 0px 20px;
+    border-width: 0px;
+}
+button:hover{
+    font-size: 27px;
+}
+a:link{
+    text-decoration: none;
+    color: white;
+}
+a:visited{
+    text-decoration: none;  
+    color:white
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+a:active{
+    text-decoration: mone;
+    color: white;
 }
 
