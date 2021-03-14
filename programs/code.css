@@ -1,5 +1,5 @@
 .Aim, .Algorithm, .Code, .Output{
-    margin-left: auto;
+    align-self: center;
 }
 .Aim{
     margin-top: 50px;
