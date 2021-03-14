@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href = "code.css">
+        <title>Prime or not</title>
+        <link rel="icon" href="https://deepam-aggarwal.github.io/codify/assets/C.png" type="image/icon type">
+    </head>
+    <body>
+        <div class = "Aim">
+            <pre><h2>AIM:Write a Program to check whether a number is prime or not.</h2></pre>
+        </div>
+        <div class = "Algorithm">
+            <pre><h2>ALGORITHM:
+    Step 1: Start
+    Step 2: Enter the number to be checked.
+    Step 3: if the number is divisible by any other number except itself or 1 then it is prime i.e. 
+            if (number% i==0) the number is not prime.
+    Step 4: Print the answer.
+    Step 5: Stop
+            </h2></pre>
+        </div>
+        <div class = "Code">
+            <pre><h2>CODE:
+    #include &lt;iostream&gt;
+    int main()
+    { 
+        int num;
+        cout<<"Enter the number:";
+        cin>>num;
+        int flag = 0;
+        for(int i=2;i<=num/2;i++)
+        {
+            if(num%i == 0)
+            { 
+                flag=1;
+                break;
+            }
+        }
+        if(flag)
+        {
+            cout<<"Prime";
+        }
+        else
+        cout<<”Not prime";
+        return 0;
+    }  
+            </h2></pre>
+        </div>
+        <div class = "Output">
+            <pre><h2>
+SAMPLE INPUT:
+    Enter the number: 5 
+SAMPLE OUTPUT: 
+    Prime
+            </h2></pre>
+        </div>
+    </body>
+</html>

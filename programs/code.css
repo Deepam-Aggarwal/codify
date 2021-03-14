@@ -1,0 +1,19 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    background-color: blueviolet;
+}
+.code{
+    border-radius: 50px;
+    padding: 30px;
+    background-color: cornsilk;
+    max-width: fit-content;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+h2{
+    font-weight: 500;
+    margin: 0%;
+}
+
