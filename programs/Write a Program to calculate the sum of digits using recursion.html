@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href = "code.css">
+        <title>Prime or not</title>
+        <link rel="icon" href="https://deepam-aggarwal.github.io/codify/assets/C.png" type="image/icon type">
+    </head>
+    <body>
+        <button><a href="https://deepam-aggarwal.github.io/codify/code.html">Back</a></button>
+        <div class = code>
+        <div class = "Aim">
+            <pre><h2>AIM: Write a Program to add the digits of a number using recursion.</h2></pre>
+        </div>
+        <div class = "Algorithm">
+            <pre><h2>ALGORITHM:
+    Step 1: Start
+    Step 2: Declare variables n, r, s, a, k.
+    Step 3: Enter and read a number.
+    Step 4: if(n<=9) return number
+            else
+            {
+              r=n%10;
+              return(r+add(n/10))
+            }
+            k=add(a);
+            Display SUM
+    Step 5: Stop
+            </h2></pre>
+        </div>
+        <div class = "Code">
+            <pre><h2>CODE:
+    #include &lt;iostream&gt;
+    int add (int n)
+    {   
+        int r;
+        if(n<=9)
+        return n;
+        else
+        {
+            r=n%10;
+            return (r+add(n/10));
+        }
+    }
+    void main()
+    {    
+        int n;
+        clrscr();
+        int a,s;
+        cout<<"\nEnter the number: "<<endl;
+        cin>>a;
+        s=add(a);
+        cout<<"\nSum Of Digits of Entered Number: "<<s;
+        getch(); 
+    }
+            </h2></pre>
+        </div>
+        <div class = "Output">
+            <pre><h2>
+SAMPLE INPUT:
+    Enter the number: 56
+SAMPLE OUTPUT: 
+    Sum Of Digits of Entered Number: 11
+            </h2></pre>
+        </div>
+       </div>
+    </body>
+</html>
