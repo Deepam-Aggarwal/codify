@@ -22,8 +22,6 @@ It has a place to learn concepts from basics like they are taught in any educati
 
 ### We had made it with ❤️ and passion. If you have any idea or want to contribute so we are glad to hear from you.<hr>
 ### Other repositories (to contribute) and stats:
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Deepam-Aggarwal&repo=codify&show_owner=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
-](https://github.com/Deepam-Aggarwal/codify)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Deepam-Aggarwal&repo=TempShop&show_owner=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
 ](https://github.com/Deepam-Aggarwal/TempShop)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Deepam-Aggarwal&repo=Codes&show_owner=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515)
