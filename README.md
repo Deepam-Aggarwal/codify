@@ -8,6 +8,7 @@
     <a href="https://github.com/Deepam-Aggarwal/codify/pulls">
       <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/Deepam-Aggarwal/codify?color=0088ff" />
     </a>
+<img src="https://img.shields.io/github/watchers/Deepam-Aggarwal/codify?style=flat"/>
 </p>
 
 # codify
