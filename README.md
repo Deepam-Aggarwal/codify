@@ -1,4 +1,6 @@
 <p align="center">
+<img width="100px"src="https://deepam-aggarwal.github.io/codify/assets/C.png" align="center" alt="Codify" />
+<H1>Codify</H1><hr>
 <img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
 <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
 <img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
@@ -12,7 +14,6 @@
 <img src="https://img.shields.io/github/languages/count/Deepam-Aggarwal/codify?logo=GitHub"/>
 </p>
 
-# codify
 ## Who are we?
 We are a group of college students who are from technological background. We are passionate to develop things that help others as a part of our small self projects.<hr>
 
