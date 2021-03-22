@@ -1,7 +1,7 @@
 <p align="center">
 <img width="100px"src="https://deepam-aggarwal.github.io/codify/assets/C.png" align="center" alt="Codify" />
-<H1 align="center">Codify</H1><hr>
 </p>
+<p align="center">Codify</p><hr>
 <p align="center">
 <img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
 <img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
