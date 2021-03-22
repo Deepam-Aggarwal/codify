@@ -9,6 +9,7 @@
 <img src="https://img.shields.io/github/issues-pr-closed/Deepam-Aggarwal/codify?color=blue&logo=GitHub"/></a>
 <img src="https://img.shields.io/github/watchers/Deepam-Aggarwal/codify?logo=GitHub&style=flat"/>
 <img src="https://img.shields.io/github/forks/Deepam-Aggarwal/codify?logo=GitHub&style=flat"/>
+<img src="https://img.shields.io/github/languages/count/Deepam-Aggarwal/codify?logo=GitHub"/>
 </p>
 
 # codify
