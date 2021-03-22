@@ -9,6 +9,7 @@
       <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/Deepam-Aggarwal/codify?color=0088ff" />
     </a>
 <img src="https://img.shields.io/github/watchers/Deepam-Aggarwal/codify?style=flat"/>
+<img src="https://img.shields.io/github/forks/Deepam-Aggarwal/codify?logo=GitHub&style=flat"/>
 </p>
 
 # codify
