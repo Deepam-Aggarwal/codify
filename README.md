@@ -11,7 +11,7 @@
 <a href="https://github.com/Deepam-Aggarwal/codify/pulls">
 <img src="https://img.shields.io/github/issues-pr-closed/Deepam-Aggarwal/codify?color=blue&logo=GitHub"/>
 </a>
-<img src="https://img.shields.io/github/watchers/Deepam-Aggarwal/codify?style=flat"/>
+<img src="https://img.shields.io/github/watchers/Deepam-Aggarwal/codify?logo=GitHub&style=flat"/>
 <img src="https://img.shields.io/github/forks/Deepam-Aggarwal/codify?logo=GitHub&style=flat"/>
 </p>
 
