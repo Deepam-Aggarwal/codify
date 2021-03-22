@@ -1,3 +1,12 @@
+<p align="center">
+    <a href="https://github.com/Deepam-Aggarwal/codify/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/Deepam-Aggarwal/codify?color=0088ff" />
+    </a>
+    <a href="https://github.com/Deepam-Aggarwal/codify/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/Deepam-Aggarwal/codify?color=0088ff" />
+    </a>
+</p>
+
 # codify
 ## Who are we?
 We are a group of college students who are from technological background. We are passionate to develop things that help others as a part of our small self projects.<hr>
