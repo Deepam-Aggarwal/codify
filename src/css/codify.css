@@ -2,6 +2,7 @@ body {
         margin: 0;
         background: #edc0bf;
         background: linear-gradient(90deg, #edc0bf 0,#c4caef 58%);
+        background-repeat: no-repeat;
      }
 p {
    font-size: 1rem;
