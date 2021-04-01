@@ -126,41 +126,9 @@
 </div>
 
 <!--<IMG SRC="assets\program.jpg" alt="View Codes" size="auto" title="Codes" >-->
-<div class="editor language-c++">
-    include &alt stdio.h
-    function fibonacci(n)
-	let num;
 
-	if (n >= 2) {
-		num = fibonacci(n - 1) + fibonacci(n - 2);
-	} else {
-		num = n
-	}
-
-	return num;
-}
-</div>
 <footer class="-container -dark-grey -padding-32 -margin-top">
 </footer>
-<script type="module" id="code">
-  import {CodeJar} from "https://medv.io/codejar/codejar.js?"
 
-  const jar = new CodeJar(
-    document.querySelector(".editor"), 
-    Prism.highlightElement
-  )
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/components/prism-core.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/plugins/autoloader/prism-autoloader.min.js"></script>
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
 </body>
 </html>
