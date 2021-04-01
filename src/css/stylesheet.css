@@ -32,7 +32,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .-table,.-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}.-table-all{border:1px solid #ccc}
 .-bordered tr,.-table-all tr{border-bottom:1px solid #ddd}.-striped tbody tr:nth-child(even){background-color:#f1f1f1}
 .-table-all tr:nth-child(odd){background-color:#fff}.-table-all tr:nth-child(even){background-color:#f1f1f1}
-.-hoverable tbody tr:hover,.-ull.-hoverable li:hover{background-color:#ccc}.-centered tr th,.-centered tr td{text-align:center}
+.-hoverable tbody tr:hover,.-ul.-hoverable li:hover{background-color:#ccc}.-centered tr th,.-centered tr td{text-align:center}
 .-table td,.-table th,.-table-all td,.-table-all th{padding:8px 8px;display:table-cell;text-align:left;vertical-align:top}
 .-table th:first-child,.-table td:first-child,.-table-all th:first-child,.-table-all td:first-child{padding-left:16px}
 .-btn,.-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
@@ -41,7 +41,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .-disabled,.-btn:disabled,.-button:disabled{cursor:not-allowed;opacity:0.3}.-disabled *,:disabled *{pointer-events:none}
 .-btn.-disabled:hover,.-btn:disabled:hover{box-shadow:none}
 .-badge,.-tag{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}.-badge{border-radius:50%}
-.-ul{list-style-type:none;padding:0;margin:0}.-ull{padding:8px 16px;border-bottom:1px solid #ddd}.-ull:last-child{border-bottom:none}
+.-ul{list-style-type:none;padding:0;margin:0}.-ul li{padding:8px 16px;border-bottom:1px solid #ddd}.-ul li:last-child{border-bottom:none}
 .-tooltip,.-display-container{position:relative}.-tooltip .-text{display:none}.-tooltip:hover .-text{display:inline-block}
 .-ripple:active{opacity:0.5}.-ripple{transition:opacity 0s}
 .-input{padding:8px;display:block;border:none;border-bottom:1px solid #ccc;width:100%}
