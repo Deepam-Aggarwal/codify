@@ -58,6 +58,11 @@ a:hover {
          box-shadow:2px 2px 5px 1px;
          color:brown;
         }
+.-container a:hover{
+                    border:0px;
+                    box-shadow:0px 0px 0px 0px;
+                   }
+
 h1 {
     font-size:30px;
     margin-top:30px;
