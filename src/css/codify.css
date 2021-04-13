@@ -52,6 +52,7 @@ a {
    font-size: 25px;
    color: black;
    padding:10px;
+   text-decoration:none;
   }
 a:hover {
          border: 1px solid black;
